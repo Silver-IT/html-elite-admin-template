@@ -1,0 +1,23 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+@import 'variable';  
+
+//Colors
+
+@import 'colors/blue'; 
+
+// Import Bootstrap source files
+@import "../../../assets/node_modules/bootstrap/scss/bootstrap";
+
+//This is for the icons
+@import '../../../assets/icons/font-awesome/css/fontawesome-all.css';
+
+
+//This is the core files
+
+@import 'core/core';
+@import 'responsive';
